@@ -346,6 +346,7 @@ void GlobedSettingsLayer::createSettingsCells(int category) {
             registerSetting(cat, settings.players.hideNearby, "Hide nearby players", "Increases the transparency of players as they get closer to you, so that they don't obstruct your view.");
             registerSetting(cat, settings.players.statusIcons, "Status icons", "Show an icon above a player if they are paused, in practice mode, or currently speaking.");
             registerSetting(cat, settings.players.hidePracticePlayers, "Hide players in practice", "Hide players that are in practice mode.");
+            registerSetting(cat, settings.players.playersForceVisibility, "Force player visibility", "Always show other players.");
         } break;
     }
 }
